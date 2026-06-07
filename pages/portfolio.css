@@ -25,7 +25,12 @@ body {
   color: black;
   padding: 20px;
 }
-
+#photogrid {
+    flex-wrap: wrap;
+}
+.img {
+    flex: 0 0 200px;
+}
 main {
     /*  *flex-grow: 1; */
 }
