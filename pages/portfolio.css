@@ -38,6 +38,10 @@ main {
     /*  *flex-grow: 1; */
 }
 
+.w3-bottombar {
+    border-bottom: none !important;
+}
+
 a {
     color: black;
     text-decoration: none;
