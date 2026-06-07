@@ -2,6 +2,7 @@
 
 :root {
     font-family: 'Nunito', sans-serif;
+	 font-weight: 300;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
 
 body {
 	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
     text-align: center;
     display: flex;
     flex-direction: column;
