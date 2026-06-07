@@ -20,6 +20,10 @@ body {
     padding: 0;
 }
 
+.w3-section.w3-bottombar {
+    border-bottom: none !important;
+}
+
 #sidebar {
   background-color: white;
   color: black;
@@ -39,9 +43,7 @@ main {
     /*  *flex-grow: 1; */
 }
 
-.w3-bottombar {
-    border-bottom: none !important;
-}
+
 
 a {
     color: black;
