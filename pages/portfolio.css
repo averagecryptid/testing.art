@@ -4,11 +4,10 @@
     font-family: 'Nunito', sans-serif;
 	 font-weight: 300;
 }
+
 body {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
-    text-align: center;
-    display: flex;
     background-image: linear-gradient(to top, #5B3256, #F6EEF5);
     min-height: 100vh;
     margin: 0;
@@ -20,30 +19,15 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
-   display: flex;
-  min-height: 100vh;
-	padding: 20px;
-}
 
-side-header {
-width: 250px;
-  background-color: #white;
+#sidebar {
+  background-color: white;
   color: black;
   padding: 20px;
 }
 
 main {
     /*  *flex-grow: 1; */
-}
-
-.photogrid {
-	display: flex;
-	flex-flow: row wrap;
-}
-
-.third-row {
-	max-width: 33.33%;
 }
 
 a {
@@ -55,13 +39,8 @@ a {
 
 i {
    font-size: 25px;
-    position: absolute; 
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 footer a {
     color: white;
 }
-
