@@ -23,7 +23,6 @@ body {
 #sidebar {
   background-color: white;
   color: black;
-  padding: 20px;
 }
 #photogrid {
     flex-wrap: wrap;
