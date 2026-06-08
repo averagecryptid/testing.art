@@ -14,14 +14,14 @@ function filterImages(category) {
 }
 
 function w3_open() {
-  document.getElementById("main").style.marginLeft = "25%";
   document.getElementById("sidebar").style.width = "25%";
+   document.getElementById("photogrid").style.marginLeft = "25%";
   document.getElementById("sidebar").style.display = "block";
-  document.getElementById("nav").style.display = 'none';
+  document.getElementById("myOverlay").style.display = 'block';
 }
 
 function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("photogrid").style.marginLeft = "0%";
   document.getElementById("sidebar").style.display = "none";
-  document.getElementById("nav").style.display = "inline-block";
+  document.getElementById("myOverlay").style.display = "none";
 } 
