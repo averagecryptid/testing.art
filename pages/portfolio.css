@@ -49,9 +49,13 @@ body {
     padding: 8px 12px;
 }
 
+@media (max-width: 992px) {
+    #sidebar {
+        display: none;
+    }
 #main-content {
-    margin-left: 250px;
-    transition: margin-left 0.3s;
+    margin-left: 0px;
+    }
 }
 
 a {
