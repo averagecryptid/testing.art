@@ -10,12 +10,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-<script src="portfolio.js"></script>
+
 <div id="sidebar" class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;">
 <div class="w3-container">
     <h1>Gabi's Art</h1></div>
 <button class="w3-bar-item w3-button w3-hide-large"
-  onclick="w3_close()">Close<i class="bi bi-x"></i></button>
+  onclick="w3_close()"><i class="bi bi-x"></i>Close</button>
     <a href="../index.html" class="w3-bar-item w3-button">Home</a>
     <a href="" class="w3-bar-item w3-button">Past Workshops</a>
     <a href="" class="w3-bar-item w3-button">CV</a>
@@ -36,7 +36,7 @@
 		<button class="w3-button w3-white filter-btn" onclick="filterImages('jewelry')"><i class="bi bi-gem"></i>Jewelry</button>
     </div>
 </div>
-	<div id= "photogrid" class="w3-row" style="gap:5px">
+	<div id= "photogrid" class="w3-row">
      <!-- row one -->   
         <div class="w3-third grid-item" data-category="digital">
           <img src="../images/Holding-protected-intensity-DEFAULT-V2-protected-intensity-DEFAULT-V1.PNG" style="width:100%" alt="woman">
@@ -74,5 +74,6 @@
     &copy; Gabriela Tahsuda
     </a>
 </footer>
+<script src="portfolio.js"></script>
 </body>
 </html>
