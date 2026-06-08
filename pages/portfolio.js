@@ -16,9 +16,11 @@ function filterImages(category) {
 function w3_open() {
     document.getElementById("sidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
+    document.getElementById("main-content").style.marginLeft = "250px";
 }
 
 function w3_close() {
     document.getElementById("sidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
+    document.getElementById("main-content").style.marginLeft = "10px";
 }
