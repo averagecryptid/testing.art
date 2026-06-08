@@ -53,7 +53,9 @@ body {
     margin-left: 250px;
     transition: margin-left 0.3s;
 }
-
+#about {
+    min-height: 100vh;
+}
 a {
     color: black;
     text-decoration: none;
