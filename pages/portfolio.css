@@ -49,12 +49,16 @@ body {
     padding: 8px 12px;
 }
 
+#main-content {
+    margin-left: 250px;
+}
+
 @media (max-width: 992px) {
+    #main-content {
+        margin-left: 0px !important;
+    }
     #sidebar {
         display: none;
-    }
-#main-content {
-    margin-left: 0px;
     }
 }
 
