@@ -34,7 +34,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
-.w3-btn {
+.card {
     width: 75%;
     border: 2px solid black;
     box-shadow: 7px 7px 0px 0px black;
@@ -45,11 +45,11 @@ header {
     position: relative;   
 }
 
-.w3-btn:hover {
+.card:hover {
     transform: scale(105%);
 }    
 
-.w3-btn:visited{
+.card:visited{
 background-color: blue;
 }    
 
