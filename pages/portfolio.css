@@ -35,11 +35,14 @@ body {
     display: block;
     padding: 5px;
 }
+
+.filter-btn i{
+    padding-right: 5px;
+}
+
 main {
     /*  *flex-grow: 1; */
 }
-
-
 
 a {
     color: black;
