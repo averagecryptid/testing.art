@@ -22,5 +22,5 @@ function w3_open() {
 function w3_close() {
     document.getElementById("sidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
-    document.getElementById("main-content").style.marginLeft = "10px";
+    document.getElementById("main-content").style.marginLeft = "250px";
 }
