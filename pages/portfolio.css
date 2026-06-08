@@ -70,10 +70,15 @@ i {
 }
 footer {
     text-align: center;
-    .w3-main {
+}    
+.w3-main {
     background-color: #5B3256;
 }
+
+.w3-overlay {
+    background-color: transparent;
 }
+
 footer a {
     color: white;
 }
