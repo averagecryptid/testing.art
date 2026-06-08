@@ -11,6 +11,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to top, #5B3256, #F6EEF5);
     min-height: 100vh;
     margin: 0;
     box-sizing: border-box;
@@ -24,10 +25,6 @@ body {
 header {
    width: 100%;
    padding: 20px;
-}
-
-.w3-main {
-    background-image: linear-gradient(to top, #5B3256, #F6EEF5);
 }
 
 .linklist {
@@ -52,9 +49,9 @@ header {
     transform: scale(105%);
 }    
 
-/*.card:visited{
+.card:visited{
 background-color: blue;
-}   */ 
+}    
 
 a {
     color: black;
@@ -72,6 +69,5 @@ i {
 }
 
 footer a {
-    background-color: #5B3256;
     color: white;
 }

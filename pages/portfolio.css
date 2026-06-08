@@ -8,7 +8,6 @@
 body {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
-    background-image: linear-gradient(to top, #5B3256, #F6EEF5);
     min-height: 100vh;
     margin: 0;
     box-sizing: border-box;
@@ -41,6 +40,9 @@ body {
     flex-wrap: wrap;
     gap: 5px;
 }
+.w3-main {
+    background-image: linear-gradient(to top, #5B3256, #F6EEF5);
+}
 
 .filter-btn i{
     min-width: 110px;
@@ -64,6 +66,9 @@ i {
 }
 footer {
     text-align: center;
+    .w3-main {
+    background-color: #5B3256;
+}
 }
 footer a {
     color: white;
