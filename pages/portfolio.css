@@ -21,7 +21,7 @@ body {
 }
 
 #sidebar {
-  background-color: #F6EEF5;
+  background-color: #EBE1EA;
   color: black;
 }
 #photogrid {
@@ -113,7 +113,7 @@ footer {
     text-align: center;
 }    
 .w3-main {
-    background-color: #5B3256;
+/*    background-color: #5B3256; */
 }
 
 .w3-overlay {
