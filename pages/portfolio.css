@@ -12,6 +12,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    background-color: #5B3256;
 }
 * {
     box-sizing: border-box;
@@ -60,6 +61,10 @@ body {
     #sidebar {
         display: none;
     }
+}
+
+#about {
+    background-color: navajowhite;
 }
 
 a {
