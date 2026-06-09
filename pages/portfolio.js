@@ -8,7 +8,7 @@ fetch('images.json')
             const div = document.createElement('div');
             div.className = 'w3-third grid-item';
             div.dataset.category = image.category;
-            div.innerHTML = `<img src="../images/${image.file}" style="width:100%" alt="${image.file}">`;
+            div.innerHTML = `<img src="../images/${image.file}" alt="${image.file}" onclick="onClick(this)">`;
             grid.appendChild(div);
         });
     })
