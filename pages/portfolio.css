@@ -48,7 +48,7 @@ body {
     cursor: pointer;
 }
 
-#modal01 img {
+#img01 {
     max-width: 90% !important;
     max-height: 90vh !important;
     width: auto !important;
