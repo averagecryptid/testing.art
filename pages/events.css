@@ -15,8 +15,9 @@ body {
     background-image: linear-gradient(to top, #5B3256, #F6EEF5);
 }
 
-.w3-container {
+#header {
      background-color: #F6EEF5;
+     
 }
 .w3-bar {
     background-color: #F6EEF5;
@@ -29,3 +30,16 @@ flex
     margin: 0;
     padding: 0;
 }}
+
+.w3-card {
+     max-width: 100%;
+     display: block;
+     aspect-ratio: 1:1.29;
+     margin: 10px;
+}
+
+.img {
+   object-fit: cover;
+   height:100%;
+   display:block;
+}
