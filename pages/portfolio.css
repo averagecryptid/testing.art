@@ -21,7 +21,7 @@ body {
 }
 
 #sidebar {
-  background-color: #EBE1EA;
+  background-color: #EBE1EA !important;
   color: black;
 }
 #photogrid {
