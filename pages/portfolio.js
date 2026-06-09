@@ -1,4 +1,4 @@
-fetch('../images.json')
+fetch('images.json')
     .then(res => res.json())
     .then(images => {
         const grid = document.getElementById('photogrid');
