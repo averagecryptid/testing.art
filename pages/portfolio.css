@@ -36,6 +36,14 @@ body {
      transition: transform 0.2s;
 }
 
+.w3-modal-content {
+    width: auto !important;
+    max-width: 90% !important;
+    margin: auto;
+    background: none !important;
+    box-shadow: none !important;
+}
+
 #modal01 {
     display: none;
     position: fixed;
