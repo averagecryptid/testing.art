@@ -36,10 +36,6 @@ body {
      transition: transform 0.2s;
 }
 
-#photogrid img:hover {
-    transform: scale(105%);
-}
-
 #modal01 {
     display: none;
     position: fixed;
