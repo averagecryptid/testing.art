@@ -49,10 +49,6 @@ header {
     transform: scale(105%);
 }    
 
-.card:visited{
-background-color: blue;
-}    
-
 a {
     color: black;
     text-decoration: none;
