@@ -33,6 +33,11 @@ body {
     object-fit: cover;
     display: block;
     padding: 5px;
+     transition: transform 0.2s;
+}
+
+#photogrid img:hover {
+    transform: scale(105%);
 }
 
 .w3-section {
