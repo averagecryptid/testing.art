@@ -2,44 +2,45 @@
 
 :root {
     font-family: 'Nunito', sans-serif;
-	 font-weight: 300;
+    font-weight: 300;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	font-family: 'Nunito', sans-serif;
-	font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     min-height: 100vh;
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
     background-image: linear-gradient(to top, #5B3256, #F6EEF5);
 }
 
 #header {
-     background-color: #F6EEF5;
-     
+    background-color: #F6EEF5;
 }
+
 .w3-bar {
     background-color: #F6EEF5;
 }
-.w3-button {
-    
-flex
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}}
 
-.w3-card {
-     max-width: 100%;
-     display: block;
-     aspect-ratio: 1:1.29;
-     margin: 10px;
+.w3-button {
+    flex: 1;
 }
 
-.img {
-   object-fit: cover;
-   height:100%;
-   display:block;
+.w3-card {
+    max-width: 100%;
+    display: block;
+    margin: 10px;
+}
+
+.w3-card img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1.29;
+    display: block;
 }
