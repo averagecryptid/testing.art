@@ -20,7 +20,7 @@ body {
     background-image: linear-gradient(to top, #5B3256, #F6EEF5);
 }
 
-#header {
+.header {
     background-color: #F6EEF5;
 }
 
